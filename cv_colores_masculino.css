@@ -1,0 +1,27 @@
+header {
+    background-color: rgb(197, 208, 204);
+}
+
+#banner_nombre_contacto {
+    background-color: #a7c2dc;
+}
+
+#banner_perfil_profesional {
+  background-color: rgb(239, 227, 201);
+}
+
+#banner_experiencia_laboral {
+  background-color: rgb(218, 217, 229);
+}
+
+#banner_educacion {
+  background-color: rgb(190, 218, 224);
+}
+
+#banner_habilidades_idiomas {
+  background-color: rgb(188, 206, 220);
+}
+
+footer {
+  background-color: rgb(196, 222, 212);
+}

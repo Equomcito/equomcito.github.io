@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=IBM+Plex+Serif:ital,wght@0,100;0,600;1,200;1,400;1,500&family=Lobster&family=Sofia+Sans+Extra+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Lobster&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Crimson+Text&family=Lobster&family=Overpass:ital,wght@0,400;0,600;1,100&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bree+Serif&family=Crimson+Text&family=Lobster&family=Overpass:ital,wght@0,400;0,600;1,100&family=Playfair+Display:ital@0;1&family=Zilla+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bree+Serif&family=Crimson+Text&family=Lobster&family=Lobster+Two&family=Overpass:ital,wght@0,400;0,600;1,100&family=Playfair+Display:ital@0;1&family=Zilla+Slab:wght@300&display=swap');
+
+h1 {
+    font-family: "IBM Plex Serif";
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 50px;
+}
+
+#nombre_completo {
+  font-family: "Lobster Two";
+  font-size: 50px;
+  margin-left: 15px;
+}
+
+.titulo {
+  font-family: "Playfair Display";
+  font-weight: bolder;
+  text-align: center;
+}
+
+#ocupacion {
+  font-family: "Aboreto";
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+[class *= 'col'] {
+    color:black;
+    font-family: "Zilla Slab";
+    font-size: 18px;
+}
+
+header {
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-color: rgb(195, 205, 227);
+}
+
+#banner_nombre_contacto {
+    padding: 20px;
+    margin: 10px;
+    background-color: #eccec0;
+}
+
+#banner_perfil_profesional {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(203, 221, 236);
+}
+
+#banner_experiencia_laboral {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(237, 226, 213);
+}
+
+#banner_educacion {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(201, 212, 207);
+}
+
+#banner_habilidades_idiomas {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(237, 218, 232);
+}
+
+footer {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: rgb(206, 205, 218);
+}
+
+#contenedor_foto_perfil {
+  text-align: center;
+}
+
+#foto_perfil {
+    border: solid 10px whitesmoke;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.461);
+    display: inline-block;
+}
+
+#numero_telefonico, #correo_electronico, #direccion {
+    font-size: 20px;
+}
+
+#escudo_universidad {
+  width: 160px;
+}
+
+.drop-button{
+  background-color:  rgb(186, 186, 186);
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+  
+.drop-button:hover, drop-buttton:hover{
+  background-color: rgb(212, 211, 211);
+}
+  
+.desplegable{
+  position: relative;
+  display: inline-block;
+ }
+  
+.mi_desplegable_contenido{
+  display: none;
+  position: absolute;
+  width: max-content;
+  background-color: rgba(212, 211, 211, 0.913);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .mi_desplegable_contenido{
+    width: 350px;
+  }
+}
+
+.mi_desplegable_contenido li {
+  padding-top: 5px;
+  padding-right: 20px;
+}
+
+.mi_desplegable_contenido a {
+  padding: 10px;
+  display: block;
+}
+  
+.mi_desplegable_contenido li:hover{
+  background-color: #f1f1f1
+}
+
+.mi_desplegable_contenido a:hover{
+  background-color: #f1f1f1
+}
+
+.mostrar {
+  display: block;
+}

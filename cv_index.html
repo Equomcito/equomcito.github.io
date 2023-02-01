@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Curriculum Vitae</title>
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/8097/8097569.png">
+    <link rel="stylesheet" type="text/css" href="cv_estilos.css" id="estilos"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <header class="col">
+        <div class="col" id="encabezado">
+            <h1 class="titulo">Curriculum Vitae</h1>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+
+        <div class="row" id="banner_nombre_contacto">
+            <div class="col-md-3" id="contenedor_foto_perfil">
+                <div id="foto_perfil"></div>
+            </div>
+            <div class="col-md-4">
+                <h2 id="nombre_completo"></h2>
+                <h3 id="ocupacion"></h3>
+            </div>
+            <div class="col-md-5">
+                <h3 class="titulo">Contacto</h3>
+                <p id="numero_telefonico"></p>
+                <p id="correo_electronico"></p>
+                <p id="direccion"></p>
+                <div class="desplegable">
+                    <button onclick="desplegar('mi_desplegable')" class="drop-button">Más info</button>
+                   <div id="mi_desplegable" class="mi_desplegable_contenido">
+                     <a id="ciudad">Link 1</a>
+                     <a id="codigo_postal">Link 2</a>
+                     <a id="numero_alternativo">Link 3</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="row">
+            <section class="col-md-12 col-lg-8">
+                <div class="col">
+                    <article class="row" id="banner_perfil_profesional">
+                        <h2 class="titulo">Perfil profesional</h2>
+                        <p>Más de 5 años brindando mis servicios profesionales a empresas de tecnología. Me apasiona
+                        encontrar soluciones informáticas a cualquier problema que se me presente enfrentándolo como un
+                        desafío. Atención a los detallas, buena gestión del tiempo y a gusto de trabajar en equipo. Me
+                        destaco en desarrollo y en el área de soporte a las infraestructuras IT.</p>
+                    </article>
+                </div>
+                <div class="row" id="banner_experiencia_laboral">
+                    <h2 class="titulo">Experiencia Laboral</h2>
+                    <div class="row">
+
+                        <article class="col-md-12 col-lg-6">
+                            <h3 class="titulo">Soluciones Informáticas S.A.</h3>
+                            <h5 class="titulo">Período: 2018 - 2020</h5>
+                            <p>Demostré un sólido conocimiento de programación en Java y C++, recibiendo el premio Best
+                            Programer que la companía entrega, en el 2019.</p>
+                            <div class="desplegable">
+                                <button onclick="desplegar('desplegable_si')" class="drop-button">
+                                    Mis actividades incluyeron:
+                                </button>
+                            <div id="desplegable_si" class="mi_desplegable_contenido">
+                                <ul>
+                                    <li>Desarrollar un plan de desarrollo del proyecto junto con el analista de 
+                                    negocios </li>
+                                    <li>Configurar nuevos sistemas de IT, redes e intranets para clientes</li>
+                                    <li>Modificar y actualizar aplicaciones de software actuales</li>
+                                    <li>Probar el modelo por problemas de compatibilidad e instalación</li>
+                                </ul>
+                            </div>
+                            </div>
+                        </article>
+
+                        <article class="col-md-12 col-lg-6">
+                            <h3 class="titulo">Elemental Tecnology S.R.L.</h3>
+                            <h5 class="titulo">Período: 2018 - actualidad</h5>
+                            <p>Desarrollo soluciones de software siguiendo el ciclo de vida del desarrollo de software:
+                            documentar los requisitos de información, consultar con los usuarios, investigar el flujo de
+                             sistemas, el uso de datos y los procesos de trabajo, y estudiar áreas problemáticas.</p>
+                            <div class="desplegable">
+                                <button onclick="desplegar('desplegable_et')" class="drop-button">
+                                    Mis actividades incluyen:
+                                </button>
+                            <div id="desplegable_et" class="mi_desplegable_contenido">
+                                    <ul>
+                                        <li>Determinar la viabilidad operativa mediante la evaluación y el análisis</li>
+                                        <li>Desarrollar documentación, diagramas de flujo, gráficos y código</li>
+                                        <li>Determinar las especificaciones y estándares del sistema</li>
+                                        <li>Asesorar ingenieros de software junior</li>
+                                    </ul>
+                            </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+            <aside class="col-md-12 col-lg-4">
+                <div class="row" id="banner_educacion">
+                    <h2 class="titulo">Educación</h2>
+                    <h5 class="titulo">Grado en Ingeniería Informática - 2017</h5>
+                    <div class="row justify-content-center">
+                        <img class="row" id="escudo_universidad"
+                        src="https://cuiciid2019.net/wp-content/uploads/2019/03/logo-de-la-complutense.gif"
+                        alt="Escudo de la Universidad Complutense de Madrid">
+                        <h5 class="titulo">Universidad Complutense de Madrid</h5>
+                    </div>
+                </div>
+                
+                <div class="row" id="banner_habilidades_idiomas">
+                    <div class="col">
+                        <h2 class="titulo">Habilidades</h2>
+                        <ul>
+                            <li>Dirección de equipos</li>
+                            <li>Capacidad de análisis</li>
+                            <li>Diagnostico de fallos</li>
+                            <li>Ciberseguridad</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h2 class="titulo">Idiomas</h2>
+                        <ul>
+                            <li>Inglés - Nivel B2</li>
+                            <li>Alemán - Nivel B1</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </aside>
+
+        </section>
+
+        <footer class="col">
+                <div class="row">
+                    <h3 class="titulo">Redes sociales</h3>
+                    <a href="#" id="linkedin" class="col">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="icono de linkedin"
+                        width="20px">LinkedIn
+                    </a>
+                    <a href="#" id="instagram" class="col">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="icono de instagram"
+                        width="20px">Instagram</a>
+                    <a href="#" id="facebook" class="col">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="icono de facebook"
+                        width="20px">Facebook</a>
+                </div>
+        </footer>
+
+    </div>
+
+
+
+    <script src="cv_funciones.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+</body>
+</html>
